@@ -8,7 +8,7 @@ import { getPosts } from '../services'
 //   { title: 'React Testing2', excerpt: 'Learn React Testing2' },
 // ]
 
-const Home: NextPage = ({ posts }) => {
+const Home = ({ posts }) => {
   return (
     <div className="container mx-auto mb-8 px-10">
       <Head>
@@ -18,7 +18,7 @@ const Home: NextPage = ({ posts }) => {
       <div className="grid grid-cols-1 gap-12 lg:grid-cols-12">
         <div className="col-span-1 lg:col-span-8">
           {posts.map((post) => (
-            <PostCard post={post} key={post.title} />
+            <PostCard post={post.node} key={post.title} />
           ))}
         </div>
         <div className="col-span-1 lg:col-span-4">

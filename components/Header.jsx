@@ -3,8 +3,8 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 
 const categories = [
-  { name: 'react', slug: 'react' },
-  { name: 'react', slug: 'react' },
+  { name: 'React', slug: 'BE-Dev' },
+  { name: 'Node', slug: 'FE-Dev' },
 ]
 
 const Header = () => {

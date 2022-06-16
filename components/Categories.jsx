@@ -16,11 +16,14 @@ const Categories = () => {
         Post Categories
       </h3>
       {categories.map((category) => (
-        <Link key={category.slug} href={`/category/${category.slug}`}>
-          <span className="mb-3 block cursor-pointer pb-3">
-            {category.name}
-          </span>
-        </Link>
+        // <Link key={category.slug} href={`/category/${category.slug}`}>
+        //   <span className="mb-3 block cursor-pointer pb-3">
+        //     {category.name}
+        //   </span>
+        // </Link>
+        <div key={category.slug} href={`/category/${category.slug}`}>
+          <span className="mb-3 block pb-3">{category.name}</span>
+        </div>
       ))}
     </div>
   )

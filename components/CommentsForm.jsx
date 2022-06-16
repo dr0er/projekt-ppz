@@ -135,12 +135,12 @@ const CommentsForm = ({ slug }) => {
         <button
           type="button"
           onClick={handlePostSubmission}
-          className="ease inline-block cursor-pointer rounded-full bg-pink-600 px-8 py-3 text-lg font-medium text-white transition duration-500 hover:bg-indigo-900"
+          className="ease inline-block cursor-pointer rounded-full bg-amber-900 px-8 py-3 text-lg font-medium text-white transition duration-500 hover:bg-indigo-900"
         >
           Post Comment
         </button>
         {showSuccessMessage && (
-          <span className="float-right mt-3 text-xl font-semibold text-green-500">
+          <span className="float-right mt-3 text-xl font-semibold text-green-500 md:text-sm">
             Comment submitted for review
           </span>
         )}

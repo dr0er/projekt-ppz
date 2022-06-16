@@ -10,10 +10,10 @@ const Header = () => {
   }, [])
   return (
     <div className="container mx-auto mb-8 px-10">
-      <div className="inline-block w-full border-b border-blue-400 py-8">
+      <div className="inline-block w-full border-b-4 border-amber-800 py-8">
         <div className="block md:float-left">
           <Link href="/">
-            <span className="cursor-pointer text-5xl font-bold text-white">
+            <span className=" cursor-pointer text-6xl font-bold text-stone-100 md:text-3xl">
               Projekt PPZ - CMS blog
             </span>
           </Link>

@@ -1,4 +1,4 @@
-### 👨‍💻 `Run locally: npm i & npm start`
+### 👨‍💻 `Run locally: npm install & npm start`
 
 ### 🔊 `Project name:` CMS Blog
 
